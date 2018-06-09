@@ -18,7 +18,7 @@ For Polish version of instruction or any inquiries, questions or change requests
 - Get Visual Studio 2017 - https://www.visualstudio.com/downloads/
 - Get .NET Framework 4.6.2 - https://www.microsoft.com/net/download/dotnet-framework-runtime/net462
 - Get .NET Core 2.0 SDK (or later, ie. 2.1) - https://www.microsoft.com/net/download/windows
-- Add local nuget source to point at **./static/local-nuget** folder in Visual Studio (Tools -> Options -> NuGet Package Manager -> Package Sources)
+- Add local nuget source to point at **./src/local-nuget** folder in Visual Studio (Tools -> Options -> NuGet Package Manager -> Package Sources)
 - Run chosen solution:
   * **./src/Bureaucratize/Bureaucratize.sln** for main WebApp and AkkaHost
   * **./src/Bureaucratize.FileStorage/Bureaucratize.FileStorage.sln** for FileStorage service
