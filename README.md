@@ -11,7 +11,7 @@ For Polish version of instruction or any inquiries, questions or change requests
 
 ### Requirements
 - Windows or Windows Server with IIS 8.0 or greater (with WebSockets support)
-- NVIDIA GPU for if you want to run Bureaucratize.MachineLearning solution
+- NVIDIA GPU if you want to run Bureaucratize.MachineLearning solution
 - SQL Server; for development SQL Server Express with LocalDB is enough: https://www.microsoft.com/pl-pl/sql-server/sql-server-editions-express
 
 ### How to build
