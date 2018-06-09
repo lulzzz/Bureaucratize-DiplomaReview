@@ -10,6 +10,7 @@ Sourcecode for my engineer degree diploma.
 ### How to build
 - Get Visual Studio 2017 - https://www.visualstudio.com/downloads/
 - Get .NET Core 2.0 SDK (or later, ie. 2.1) - https://www.microsoft.com/net/download/windows
+- Add local nuget source to point at **./static/local-nuget** folder in Visual Studio (Tools -> Options -> NuGet Package Manager -> Package Sources)
 - Run chosen solution:
   * **./src/Bureaucratize/Bureaucratize.sln** for main WebApp and AkkaHost
   * **./src/Bureaucratize.FileStorage/Bureaucratize.FileStorage.sln** for FileStorage service
