@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bureaucratize.Templating.Co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{EE3247D2-BAFB-4DC7-AE75-06207EAFD16C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{8C306BC8-02BF-4233-8382-6B1305A94CBE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bureaucratize.Templating.Infrastructure", "Bureaucratize.Templating.Infrastructure\Bureaucratize.Templating.Infrastructure.csproj", "{AAEECD48-CF72-4DD6-974D-D46574395E11}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImageProcessing", "ImageProcessing", "{1F5B76CF-3892-472D-BF07-B2BD88DEC3E8}"
