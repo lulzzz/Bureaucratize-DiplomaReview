@@ -2,7 +2,7 @@
 
 Sourcecode for my engineer degree diploma. 
 
-For Polish version of instruction OR any inquiries, questions or change requests please email me via: michal@wilczynski.pro
+For Polish version of instruction or any inquiries, questions or change requests please email me via: michal@wilczynski.pro
 
 ### Technologies
 - CNTK (CNN) + Accord.NET
