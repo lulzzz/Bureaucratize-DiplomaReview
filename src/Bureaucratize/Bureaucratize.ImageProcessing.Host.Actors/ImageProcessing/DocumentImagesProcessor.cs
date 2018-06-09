@@ -106,32 +106,7 @@ namespace Bureaucratize.ImageProcessing.Host.Actors.ImageProcessing
                     }, TaskContinuationOptions.ExecuteSynchronously)
                     .PipeTo(sender);
 
-                //TODO: Make this right and switch to busy behaviour
-                // switch behavior
-                //Become(Working);
             });
-
-            //Receive<DocumentProcessingCompleted>(page =>
-            //{
-            //    Console.WriteLine($"Document {page.DocumentId} completed");
-            //});
-
-            //Receive<DocumentPageProcessingCompleted>(page =>
-            //{
-            //    Console.WriteLine($"Document {page.DocumentId} completed page: {page.PageNumber}");
-            //});
-
-            //Receive<DocumentPageTextAreaProcessingCompleted>(area =>
-            //{
-            //    Console.WriteLine($"Document {area.DocumentId}, page {area.PageNumber} area {area.AreaName} completed with output: " +
-            //                      $"{area.RecognitionResult.RecognitionOutput}");
-            //});
-
-            //Receive<DocumentPageChoiceAreaProcessingCompleted>(area =>
-            //{
-            //    Console.WriteLine($"Document {area.DocumentId}, page {area.PageNumber} area {area.AreaName} completed with output: " +
-            //                      $"{area.RecognitionResult.RecognitionOutput}");
-            //});
         }
 
         private void ProcessPage(OrderedBitmap page, IActorRef senderRef, DocumentToProcess document)
